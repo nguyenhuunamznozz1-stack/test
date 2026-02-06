@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LAB 4 - CSS Hover</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f2f2f2;
+      }
+      .menu {
+        width: 300px;
+        margin: 40px auto;
+        background: #e5e5e5;
+        padding: 60px 40px;
+      }
+      .nav__link {
+        display: block;
+        font-size: 2.4rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #3a3e3b;
+        letter-spacing: 0.3rem;
+        margin: 15px 0;
+        padding: 5px 10px;
+      }
+      .nav__link:hover {
+        background: #beed8c;
+        color: #678e3e;
+        padding-left: 1.5rem;
+        border-left: 0.25rem solid #678e3e;
+      }
+      .features {
+        width: 80%;
+        margin: 60px auto;
+      }
+      .feature_item {
+        border: 2px solid red;
+        padding: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+        background: #fff;
+      }
+      .feature_title {
+        color: #698f3f;
+        letter-spacing: 0.2rem;
+        font-weight: 700;
+      }
+      .feature_item:hover {
+        background-color: #698f3f;
+      }
+      .feature_item:hover .feature_title {
+        color: #fff;
+      }
+      .hero {
+        width: 90%;
+        margin: 60px auto;
+        background-image: url("https://images.unsplash.com/photo-1509042239860-f550ce710b93");
+        background-size: cover;
+        background-position: center;
+        padding: 100px 20px;
+        text-align: center;
+        color: #fff;
+      }
+      .hero h1 {
+        font-size: 3rem;
+        letter-spacing: 0.3rem;
+      }
+      .btn {
+        display: inline-block;
+        margin-top: 30px;
+        color: #3a3e3b;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 1.4rem;
+        font-weight: 700;
+        background-color: #698f3f;
+        outline: 3px solid #698f3f;
+        outline-offset: 4px;
+        padding: 1rem 1rem;
+      }
+      .btn:hover {
+        background-color: #4b6630;
+        outline-color: #4b6630;
+        outline-width: 5px;
+        color: #e5e5e5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <a href="#" class="nav__link">Features</a>
+      <a href="#" class="nav__link">About</a>
+      <a href="#" class="nav__link">Products</a>
+      <a href="#" class="nav__link">Services</a>
+      <a href="#" class="nav__link">Contacts</a>
+    </div>
+    <div class="features">
+      <div class="feature_item">
+        <h3 class="feature_title">Made With Love</h3>
+        <p>
+          Our tea is made with love, from the collection of the leaves to the
+          brewing.
+        </p>
+      </div>
+      <div class="feature_item">
+        <h3 class="feature_title">Relaxation</h3>
+        <p>
+          Set aside anxiety and relax after a hard day with a cup of hot tea.
+        </p>
+      </div>
+      <div class="feature_item">
+        <h3 class="feature_title">Energy</h3>
+        <p>
+          Our tea will energize you with vitamins and invigorate the rest of the
+          day.
+        </p>
+      </div>
+    </div>
+    <div class="hero">
+      <h1>SPECIALLY CRAFTED TEA</h1>
+      <a href="#" class="btn">Explore</a>
+    </div>
+  </body>
+</html>

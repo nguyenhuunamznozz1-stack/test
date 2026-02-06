@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tea Station</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        padding: 20px;
+      }
+      .container {
+        max-width: 1100px;
+        margin: auto;
+      }
+      .top {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        margin-bottom: 30px;
+      }
+      .top h3 {
+        margin-bottom: 10px;
+      }
+      .about {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+        margin-bottom: 40px;
+      }
+      .about img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+      }
+      .products {
+        margin-top: 30px;
+      }
+      .product-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+      .product {
+        text-align: center;
+      }
+      .product img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <div>
+          <h3>Made with love</h3>
+          <p>
+            Our tea is made with love, from the collection of the leaves to the
+            brewing.
+          </p>
+        </div>
+        <div>
+          <h3>Relaxation</h3>
+          <p>
+            Set aside anxiety and relax after a hard day with a cup of hot tea.
+          </p>
+        </div>
+        <div>
+          <h3>Energy</h3>
+          <p>Our tea will energize you and invigorate the rest of the day.</p>
+        </div>
+        <div>
+          <h3>Family recipe</h3>
+          <p>All our recipes are passed down from generation to generation.</p>
+        </div>
+      </div>
+      <div class="about">
+        <img
+          src="https://th.bing.com/th/id/OIP.iJVx5ffbUGs-2yU-Y69rMQHaE8?w=255&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+          alt="Tea"
+        />
+        <div>
+          <h2>About Our</h2>
+          <h3>Tea station</h3>
+          <p>
+            Once upon a time we only had a couple of teapots and enjoyed tea
+            with our family. Over time, we were able to afford to buy a small
+            tea plantation.
+          </p>
+          <br />
+          <p>
+            Now we have a whole teahouse and we delight many people with
+            delicious tea.
+          </p>
+          <br />
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+      <div class="products">
+        <h2>OUR PRODUCTS</h2>
+        <p>
+          Our assortment includes long tea, green tea, jasmine tea and many
+          others.
+        </p>
+        <br />
+        <div class="product-list">
+          <div class="product">
+            <img
+              src="https://th.bing.com/th/id/OIP.iJVx5ffbUGs-2yU-Y69rMQHaE8?w=255&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+            />
+            <h4>BLACK LONG TEA</h4>
+            <p>$3.99</p>
+          </div>
+
+          <div class="product">
+            <img
+              src="https://th.bing.com/th/id/OIP.iJVx5ffbUGs-2yU-Y69rMQHaE8?w=255&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+            />
+            <h4>GREEN TEA WITH JASMINE</h4>
+            <p>$4.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

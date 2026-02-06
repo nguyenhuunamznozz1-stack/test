@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bài 2 - Form đăng ký</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f2f2f2;
+      }
+
+      .form-container {
+        width: 500px;
+        margin: 30px auto;
+        background: #fff;
+        padding: 20px;
+        border: 2px solid #f1c75b;
+      }
+
+      .row {
+        display: flex;
+        margin-bottom: 10px;
+        align-items: center;
+      }
+
+      .row label {
+        width: 120px;
+        font-weight: bold;
+      }
+
+      .row input[type="text"],
+      .row select,
+      .row textarea {
+        flex: 1;
+        padding: 5px;
+      }
+
+      textarea {
+        height: 80px;
+      }
+
+      .actions {
+        text-align: center;
+        margin-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="form-container">
+      <div class="row">
+        <label>Họ và tên:</label>
+        <input type="text" />
+      </div>
+
+      <div class="row">
+        <label>Giới tính:</label>
+        <input type="radio" name="gt" /> Nam <input type="radio" name="gt" /> Nữ
+      </div>
+
+      <div class="row">
+        <label>Hình ảnh:</label>
+        <input type="file" />
+      </div>
+
+      <div class="row">
+        <label>Quốc tịch:</label>
+        <select>
+          <option>United States</option>
+          <option>Viet Nam</option>
+          <option>Japan</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <label>Sở thích:</label>
+        <input type="checkbox" /> Thể thao <input type="checkbox" /> Du lịch
+        <input type="checkbox" /> Âm nhạc <input type="checkbox" /> Ẩm thực
+      </div>
+
+      <div class="row">
+        <label>Ghi chú:</label>
+        <textarea></textarea>
+      </div>
+
+      <div class="actions">
+        <button type="submit">Đăng ký</button>
+        <button type="reset">Nhập lại</button>
+      </div>
+    </form>
+  </body>
+</html>

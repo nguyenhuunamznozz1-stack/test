@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: linear-gradient(
+          to left,
+          rgb(30, 120, 255),
+          rgb(0, 203, 210)
+        );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40%;
+      }
+      form {
+        background-color: white;
+        width: 400px;
+        height: auto;
+        padding: 10px;
+        border-radius: 15px;
+      }
+      button {
+        width: 100%;
+        background: linear-gradient(
+          to left,
+          rgb(30, 120, 255),
+          rgb(0, 203, 210)
+        );
+        color: white;
+        font-weight: bold;
+        height: 25px;
+        border-radius: 90px;
+        margin-top: 15px;
+        border: none;
+        box-shadow: 0px 0px 10px rgb(0, 0, 0, 0, 3);
+      }
+      input {
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <h2 align="center">Register</h2>
+      <label for="">Username</label><br />
+      <input class="input-regis" type="text" /><br />
+      <label for="">Password</label><br />
+      <input class="input-regis" type="password" /><br />
+      <label for="">Confirm Password</label><br />
+      <input class="input-regis" type="text" /><br />
+      <label for="">upload personal image</label><br />
+      <input class="input-regis" type="file" /><br />
+      <label for="">address</label><br />
+      <input class="input-regis" type="text" /><br />
+      <label for="">gender</label><br />
+      <input type="radio" name="gt" /> male
+      <input type="radio" name="gt" /> female
+      <input type="radio" name="gt" /> other <br />
+      <label for="">Search</label> <br />
+      <input list="data" name="" id="" />
+      <datalist></datalist>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

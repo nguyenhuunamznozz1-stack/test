@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tea Station</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      .menu {
+        background: #e6e6e6;
+        padding: 40px;
+        width: 280px;
+      }
+      .menu a {
+        display: block;
+        text-decoration: none;
+        color: #444;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin: 12px 0;
+      }
+      .menu a:hover {
+        background: #b7e4a0;
+        padding-left: 20px;
+        border-left: 4px solid #678e3e;
+      }
+      .hero {
+        height: 400px;
+        background: url("https://images.unsplash.com/photo-1511920170033-f8396924c348")
+          center/cover no-repeat;
+        color: #fff;
+        text-align: center;
+        padding-top: 120px;
+      }
+      .hero h1 {
+        letter-spacing: 4px;
+      }
+      .features {
+        width: 320px;
+        margin: 50px auto;
+      }
+      .feature {
+        border: 1px solid #ddd;
+        padding: 25px;
+        text-align: center;
+      }
+      .feature:not(:last-child) {
+        border-bottom: none;
+      }
+      .feature h4 {
+        color: #698f3f;
+        letter-spacing: 2px;
+      }
+      .feature:hover {
+        background: #698f3f;
+      }
+      .feature:hover h4,
+      .feature:hover p {
+        color: #fff;
+      }
+      .about {
+        width: 360px;
+        margin: 50px auto;
+      }
+      .about img {
+        width: 100%;
+        border-radius: 12px;
+        border: 3px solid #698f3f;
+      }
+      .about h3 {
+        margin-top: 15px;
+      }
+      .about a {
+        display: inline-block;
+        margin-top: 15px;
+        text-decoration: none;
+        color: #698f3f;
+        font-weight: bold;
+      }
+      .products {
+        background: #3f4441;
+        padding: 40px;
+        color: #fff;
+      }
+      .product {
+        width: 220px;
+        margin-bottom: 30px;
+        border: 2px solid #698f3f;
+        padding: 10px;
+      }
+      .product img {
+        width: 100%;
+        border-radius: 8px;
+      }
+      .product span {
+        color: #9ad27c;
+      }
+      .product:hover {
+        transform: scale(1.05);
+      }
+      .button-area {
+        padding: 50px;
+      }
+      .btn {
+        text-decoration: none;
+        padding: 10px 18px;
+        color: #698f3f;
+        outline: 3px solid #698f3f;
+        outline-offset: 4px;
+      }
+      .btn:hover {
+        background: #698f3f;
+        color: #fff;
+        outline-width: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="menu">
+      <a href="#">FEATURES</a>
+      <a href="#">ABOUT</a>
+      <a href="#">PRODUCTS</a>
+      <a href="#">SERVICES</a>
+      <a href="#">CONTACTS</a>
+    </section>
+    <section class="hero">
+      <h1>SPECIALLY CRAFTED TEA</h1>
+    </section>
+    <section class="features">
+      <div class="feature">
+        <h4>MADE WITH LOVE</h4>
+        <p>Our tea is made with love.</p>
+      </div>
+      <div class="feature">
+        <h4>RELAXATION</h4>
+        <p>Relax after a hard day.</p>
+      </div>
+      <div class="feature">
+        <h4>ENERGY</h4>
+        <p>Invigorate your day.</p>
+      </div>
+    </section>
+    <section class="about">
+      <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" />
+      <h3>TEA STATION</h3>
+      <p>
+        We serve black long tea, green tea, jasmine tea, tea with spices and
+        many others.
+      </p>
+      <a href="#">LEARN MORE</a>
+    </section>
+    <section class="products">
+      <div class="product">
+        <img
+          src="https://images.unsplash.com/photo-1509042239860-f550ce710b93"
+        />
+        <h4>BLACK LONG TEA</h4>
+        <span>$9.99</span>
+      </div>
+      <div class="product">
+        <img
+          src="https://images.unsplash.com/photo-1518977956815-dee0064f2c8c"
+        />
+        <h4>GREEN TEA WITH JASMINE</h4>
+        <span>$4.99</span>
+      </div>
+    </section>
+    <section class="button-area">
+      <a href="#" class="btn">LEARN MORE</a>
+    </section>
+  </body>
+</html>
